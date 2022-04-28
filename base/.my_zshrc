@@ -1,0 +1,3 @@
+# Local specific overrides.
+LOCAL_RC=$HOME/.zshrc.local
+test -f $LOCAL_RC && source $LOCAL_RC
